@@ -1,6 +1,51 @@
 # hbsmon
 
-Monitor .hbs (Handlebar) file for changes and execute specified .js file
+Monitor .hbs (Handlebar) file for changes and execute specified .js 
+
+## Installation
+
+Install the package globally so you can use the `hbsmon` CLI command:
+
+```bash
+npm i -g hbsmon
+```
+
+## Usage
+
+### Get help
+
+```bash
+hbsmon -h
+```
+
+### Get version
+
+```bash
+hbsmon -V
+```
+
+### Monitor `.hbs` file, run script file with template basename
+
+```bash
+hbsmon template
+```
+
+* Monitor changes of `template.hbs` file and run `template.js` script
+* Template default extension: `.hbs`
+* Default JavaScript default extension `.js`
+* Default Javascript filename: template file basename
+  
+### Monitor `.hbs` file, run specified script
+
+```
+hbsmon template create-page
+```
+
+* Monitor changes of `template.hbs` file
+* Template default extension: `.hbs`
+* Default JavaScript default extension `.js`
+* Run javacript file: `create-page.js`
+
 
 ## Quick demo
 
@@ -10,13 +55,13 @@ This example shows how you to monitor changes to a `.hbs` template file and run 
 
 ```hbs
 <body>
-<ul>
-    {{#each items as |item|}}
-    <li>
-        <a href="{{{item.url}}}" title="">{{{item.text}}}</a>
-    </li>
-    {{/each}}
-</ul>
+    <ul>
+        {{#each items as |item|}}
+        <li>
+            <a href="{{{item.url}}}" title="">{{{item.text}}}</a>
+        </li>
+        {{/each}}
+    </ul>
 </body>
 ```
 
