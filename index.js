@@ -20,6 +20,7 @@ program
     
         fs.watch(hbsfile, (event, filename) => {
             if(filename) {
+                console.log(`${hbsfile} changed...`)
                 exec(`node ${jsToRun}`, (error, stdout, stderr) => {
                 })
             }
