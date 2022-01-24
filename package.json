@@ -1,0 +1,29 @@
+{
+  "name": "hbsmon",
+  "version": "1.0.0",
+  "description": "Monitor .hbs (Handlebar) file for changes and execute specified .js file",
+  "bin": {
+    "hbsmon": "./index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ioncakephper/hbsmon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ioncakephper/hbsmon/issues"
+  },
+  "homepage": "https://github.com/ioncakephper/hbsmon#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "commander": "^8.3.0",
+    "file-easy": "^1.0.3",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
