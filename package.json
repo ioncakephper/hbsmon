@@ -13,7 +13,15 @@
     "type": "git",
     "url": "git+https://github.com/ioncakephper/hbsmon.git"
   },
-  "author": "",
+  "author": "Ion Gireada shytiger@yahoo.com",
+  "keywords": [
+    "template",
+    "templates",
+    "Handlebars",
+    "watch",
+    "changes",
+    "productivity"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ioncakephper/hbsmon/issues"
