@@ -4,7 +4,7 @@ Monitor .hbs (Handlebar) file for changes and execute specified .js file
 
 ## Quick demo
 
-This example shows how you to monitor changes to a `.hbs` template file and run a script when template file changes.
+This example shows how you to monitor changes to a `.hbs` template file and run a script when the template file changes.
 
 1. Create a `template.hbs` file: this is the file template file you will monitor for changes
 
