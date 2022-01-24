@@ -1,6 +1,6 @@
 {
   "name": "hbsmon",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Monitor .hbs (Handlebar) file for changes and execute specified .js file",
   "bin": {
     "hbsmon": "./index.js"
