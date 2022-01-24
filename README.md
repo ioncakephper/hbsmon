@@ -9,6 +9,7 @@ This example shows how you to monitor changes to a `.hbs` template file and run 
 1. Create a `template.hbs` file: this is the file template file you will monitor for changes
 
 ```hbs
+<body>
 <ul>
     {{#each items as |item|}}
     <li>
@@ -16,6 +17,7 @@ This example shows how you to monitor changes to a `.hbs` template file and run 
     </li>
     {{/each}}
 </ul>
+</body>
 ```
 
 2. Create a `create.js` file: this is the script you will invoke when `template.hbs` file changes.
