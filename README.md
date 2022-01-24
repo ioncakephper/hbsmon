@@ -49,7 +49,14 @@ hbsmon template create-page
 
 ## Quick demo
 
-This example shows how you to monitor changes to a `.hbs` template file and run a script when the template file changes.
+This example shows you how to monitor changes to a `.hbs` template file and run a script when the template file changes.
+
+* You will create an `.hbs` template file to monitor and a Javascript `.js` file to execute when the template file changes. In this example, the javascript creates `result.html` -- it uses the template.
+* Next, you will invoke `hbsmon` CLI command with template and javascript filenames as arguments.
+* Next, you open the template and `result.html` in your IDE.
+* Edit the template file, and notice the `result.html` file -- it has the update template content.
+
+**Follow this steps:**
 
 1. Create a `template.hbs` file: this is the file template file you will monitor for changes
 
